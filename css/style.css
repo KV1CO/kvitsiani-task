@@ -1,0 +1,371 @@
+* {
+    margin: 0px;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1100px;
+    margin:0px auto;
+    height: 100%;
+}
+
+header{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    z-index: 100;
+}
+
+.cta-button{
+    background-color:#cb9766; 
+    padding: 9.5px 30px;
+    border-radius: 4px;
+    color: black !important;
+    transition: all .3s ease-out;
+    margin-left: 20px;
+}
+.cta-button:hover{
+    background-color:#494949;
+    color: #fff !important;
+}
+
+
+.header-wrapper .left{
+    display: flex; 
+}
+.header-wrapper .right a{
+  margin-left: 20px;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+}
+
+.meniu{
+ margin: auto;
+ padding-right: 22px;
+}
+
+.meniu-container{
+    height: 5px;
+    width: 19px;
+    border: 3px solid white;
+    border-right: 0px;
+    border-left: 0px;
+    justify-content: center;
+
+}
+
+.holleta{
+    font-size: 28px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-weight: 500;
+}
+
+header .header-wrapper{
+display: flex;
+justify-content: space-between;
+height: 100%;
+align-items: center;
+}
+.main-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main-reclam{
+    position: absolute;
+    z-index: 100;
+    left: 80px;
+    top: 300px;
+    height: 440px;
+}
+.main-reclam h1{
+font-size: 72px;
+font-weight: 600;
+font-family: 'Lato', sans-serif;
+color: white;
+}
+
+.main-reclam h2{
+    color: white;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    width: 360px;
+    line-height: 25px;
+    padding-top: 20px;
+}
+
+.main-reclam a {
+    font-family: 'Roboto', sans-serif;
+    color: #e7b78d;
+    font-size: 16px;
+    font-weight: 500;
+}
+.main-reclam a:hover{
+    color: white;
+    transition: 0.6s;
+}
+
+.main-reclam a i {
+font-size: 10px;
+padding-top: 40px;
+padding-left: 5px;
+}
+
+.hero-section{
+position: relative;
+overflow: hidden;
+height: 100vh;
+}
+
+.hero-section .cards{
+    position: absolute;
+    left: 33%;
+    width: 100%;
+    top: -5%;
+    transform: scale(1.1);
+}
+
+section .icons{
+   color: white;
+   font-family: 'Roboto', sans-serif;
+   z-index: 100;
+   font-size: 18px;
+}
+.bottom-wrapper{
+    display: flex;
+    position: absolute;
+    bottom: 4%;
+    left: 80px;
+    right: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .icons i{
+    padding-left: 10px;
+    color: white;
+    font-size: 22px;
+}
+
+.promo-theme{
+    width: 300px;
+    height: 50px;
+    background-color: white;
+    border-radius: 4%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.promo-theme i{
+    color: red;
+    font-size: 18px;
+}
+.border-bottom{
+ background-color:  #cb9766;
+ width: 100%;
+ height: 5px;
+ position: absolute;
+ bottom: 0px;
+}
+
+.services-section{
+    background-color: #404040;
+    background-image: url(https://promo-theme.com/holleta/wp-content/plugins/pt-holleta-addons/assets/imgs/pattern.php?fill=363636&type=type1);
+    background-size: contain;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 60px 80px;
+}
+
+.services-section .left{
+    width: 40%;
+}
+
+.services-section .right{
+ width:55%;
+}
+
+.services-section .left h1{
+    color: white;
+    font-size: 42px;
+    font-family: 'Lato', sans-serif;
+    width: 400px;
+    margin-top: -25px;
+    padding-bottom: 25px;
+}
+
+.services-section .left p{
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    color: #eab98d;
+}
+
+.services-section .left a{
+    margin-top: 30px;
+}
+
+.services-section .left a{
+    background-color:#041B28;
+    padding: 9.5px 30px;
+    border-radius: 4px;
+    color: white !important;
+    transition: all .3s ease-out;
+    display: inline-block;
+}
+
+.services-section .left a:hover{
+    background-color:#eab98d;
+    color: #fff !important;
+}
+
+.single-service{
+    display: flex;
+
+}
+
+.service-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service-header h1{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 500;
+}
+
+.service-header p{
+    color: white;
+    padding:3px 7px;
+    background-color: #874C10;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+.service-icon{
+    margin-right: 20px;
+}
+
+.service-icon img{
+    width: 28px;
+}
+.service-short-desc{
+    font-family: 'Lato', sans-serif;
+    color:#cdcdcd;
+    font-size: 14px;
+    margin-top: 15px;
+
+    /* border-left: 1px solid rgba(255, 255, 255, 0.3); */
+}
+
+.right{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.single-service{
+    width: 48%;
+    margin-top: 50px;
+}
+
+footer .logo h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 28px;
+    color: white;
+}
+
+footer .logo p {
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+footer .address {
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+footer .address span {
+    opacity: .5;
+}
+
+footer .contact {
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+footer {
+    display: flex;
+    flex-direction:row;
+    background-color: #272525;
+    justify-content: space-between;
+    padding: 40px 80px;
+}
+
+footer > div {
+    width: 18%;
+}
+.footer-bot{
+    background-color: #272525;
+    padding: 0px 80px;
+}
+
+.footer-bot p{
+    opacity: 0.5;
+    font-size: 13px;
+    font-family: 'Lato', sans-serif;
+}
+
+.right-bot {
+    display: flex;
+    align-items: center;
+    
+}
+
+.footer-bot-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.right-bot a {
+    margin-right: 15px;
+}
+
+.footer-border {
+    width: 100%;
+    height: 1px;
+    background-color:#3c3a3a;
+}
+
+
+
+
+
+
+
+
+
+
+
+
